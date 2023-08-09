@@ -1,136 +1,147 @@
 <!DOCTYPE HTML>
-<!--
-	Personal Portfolio - Eric Gonzalez
-	Designed by HTML5 UP | Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
+
 <html>
-	<head>
-		<title>Eric Gonzalez - Personal Portfolio</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-	</head>
-	<body class="is-preload">
+<head>
+	<title>Eric Gonzalez - Personal Portfolio</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="icon" href="images/x-icon.png" type="image/x-icon">
+	<style>
+		
+		#nav {
+			text-align: center;
+			margin: 0;
+			padding: 1rem 0;
+			background-color: #78b784; 
+		}
+		#nav ul {
+			list-style: none;
+			padding: 0;
+			display: flex;
+			justify-content: center;
+		}
+		#nav ul li {
+			margin: 0 1rem;
+		}
+		#nav ul li a {
+			color: #fff; 
+			text-decoration: none;
+			font-weight: bold;
+			font-size: 1.2rem;
+			transition: color 0.3s ease;
+		}
+		#nav ul li a:hover {
+			color: #e74c3c;
+		}
+		.award-list {
+			display: flex;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
 
-		<!-- Header -->
-		<div id="header">
-			<img src="images/tlps--8851.jpg"></span>
-			<h1>Welcome to my Portfolio</h1>
-			<p>I am Eric Gonzalez and I am incoming student at Baruch College. This is a showcase of my personal achievements.</p>
-		</div>
+.award-list li {
+    margin-bottom: 1rem;
+    padding: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f9f9f9;
+}
 
-		<!-- Main -->
-		<div id="main">
 
-			<header class="major container medium">
-				<h2>My Professional experiences</h2>
-				<p>I've participated and interned at various companies related to computer science and product management</p>
+	</style>
+</head>
+<body class="is-preload">
+
+	<!-- Navigation Bar -->
+	<nav id="nav">
+		<ul class="container">
+			<li><a href="index.html">Home</a></li>
+			<li><a href="professional.html">Professional Experiences</a></li>
+			<li><a href="education.html">My Education</a></li>
+			<li><a href="projects.html">My Projects</a></li>
+		</ul>
+	</nav>
+
+	<!-- Main Content -->
+	<div id="main">
+		<img src="images/tlps--8851.jpg" alt="Profile Image" style="width: 70%; height: auto; display: block; margin: 0 auto">
+		<!-- About Me Section -->
+		<div class="container">
+			<header class="major">
+				<h2>About Me</h2>
 			</header>
+			<p>I am Eric Gonzalez, an incoming student at Baruch College. I am a hard-working and dedicated student with a passion for learning. I am also a creative and innovative thinker with a strong interest in problem-solving.
 
-			<!-- Featured Sections -->
-			<div class="box alt container">
-				<section class="feature left">
-					<a href="#" class="image icon solid fa-laptop"><img src="images/pic01.jpg" alt="" /></a>
-					<div class="content">
-						<h3>Mastercard Careerwise apprentice</h3>
-						<p>- Worked for 16 hours a week while also completing my high school studies</p>
-						<p>- Placed on the Secure Remote Commerce team and contributed to Mastercard's digital solutions </p>
-						<p>- Developed skills in product vision, strategy, roadmaps, project management, data analytics, how to work cross-functionally with Product, Design, and Engineering</p>
-					</div>
-				</section>
-				<section class="feature right">
-					<a href="#" class="image icon solid fa-code"><img src="images/pic02.jpg" alt="" /></a>
-					<div class="content">
-						<h3>Columbia University Research Intern</h3>
-						<p>• Worked alongside the Boyce Lab and produced simulations of the effect active living forces have on chaotic and structured bubbling patterns through MFIX and Terremoto
-							• Trained in utilizing an MRI to conduct research
-							• Participated in communication, college, and presentation workshops to develop professionally</p>
-					</div>
-				</section>
-				<section class="feature left">
-					<a href="#" class="image icon solid fa-mobile-alt"><img src="images/pic03.jpg" alt="" /></a>
-					<div class="content">
-						<h3>Arise Research Intern</h3>
-						<p>• Created simulations in MATLAB coding program to create plastic material in an environmentally friendly way to offer an alternative to the eco-unfriendly process of creating plastics
-							• Completed writing workshops, research ethics courses, and college readiness workshops
-							•Received training in presentation and public speaking skills, in collaboration with ARISE’s partners at Irondale Ensemble Project, a theatre company, to prepare for presenting at the colloquium</p>
-					</div>
-				</section>
-				<section class="feature right">
-					<a href="#" class="image icon solid fa-code"><img src="images/pic02.jpg" alt="" /></a>
-					<div class="content">
-						<h3>Google Code Next Student</h3>
-						<p>• Created a phone stand through Tinker CAD and 3D printed it to learn about 3D modeling with the 3D Modeling Club
-							• Learned about JavaScript, the history of computers, and computer science fundamentals through the Fundamental Club.</p>
-					</div>
-				</section>
-				<section class="feature left">
-					<a href="#" class="image icon solid fa-mobile-alt"><img src="images/pic03.jpg" alt="" /></a>
-					<div class="content">
-						<h3>AllStarCode</h3>
-						<p>•learned HTML, Javascript and coding •Made various Projects with HTML, Javascript and CSS </p>
-					</div>
-				</section>
-			</div>
+				In high school I took a rigorous course load and earned high grades. I was also involved in a variety of extracurricular activities, including the Science Olympiad, and the student government.</p>
+			<section>
+				<h3>Passions and Interests</h3>
+				<p>I am passionate about coding, gaming, and reading. I enjoy the challenge of solving problems, the sense of accomplishment, and the joy that these activities provide. I am always looking for new challenges. I am confident that I will continue to pursue my passions in these areas.</p>
+			</section>
 
-			<!-- Projects -->
-			<div class="box container">
-				<header>
-					<h2>My Projects</h2>
-				</header>
-				<section>
-					<!-- Project 1 -->
-					<header>
-						<h3>Project Title 1</h3>
-						<p>Project Description</p>
-					</header>
-					<p>Project details and accomplishments...</p>
-				</section>
-				<section>
-					<!-- Project 2 -->
-					<header>
-						<h3>Project Title 2</h3>
-						<p>Project Description</p>
-					</header>
-					<p>Project details and accomplishments...</p>
-				</section>
-				<!-- Add more project sections as needed -->
-			</div>
+			<section>
+				<h3>Goals and Aspirations</h3>
+				<p>I am also passionate about using my coding skills to create educational tools that can help people learn about finance. I believe that everyone should have access to financial education, and I want to use my skills to make that happen. I hope to create tools that are engaging and interactive, and that can help people learn about finance in a fun and meaningful way. Ultimately, I want to use my skills to make a positive impact on the world of finance and help people achieve their financial goals.</p>
+			</section>
 
-			<!-- Contact -->
-			<footer class="major container medium">
-				<h3>Get in Touch</h3>
-				<p>Interested in collaborating? Let's connect and create something amazing together.</p>
-				<ul class="actions special">
-					<li><a href="#" class="button">Contact Me</a></li>
+			<section>
+				<h3>Values and Beliefs</h3>
+				<p>I believe that it is important to give back to the community and help others in need. I believe that we all have a responsibility to help those who are less fortunate than us. There are many ways to give back to the community, such as volunteering your time, donating to charity, or simply being kind to others. I believe that even small acts of kindness can make a big difference in the world.</p><br>
+
+					<p>I believe that we are all connected and that we have a responsibility to each other. I believe that we are all part of a larger community, and that we have a responsibility to help each other. We are all connected, whether we like it or not. Our actions affect others, and their actions affect us. I believe that we have a responsibility to use our power to help others and make the world a better place.</p>
+			</section>
+
+			<section>
+				<h3>Awards</h3>
+				<ul class="award-list">
+					<li>
+						<p><strong>Dell Scholar</strong></p>
+						<p>Issued by Dell</p>
+						<p>March 2023</p>
+					</li>
+					<li>
+						<p><strong>National Hispanic Recognition Award</strong></p>
+						<p>Issued by Collegeboard</p>
+						<p>August 2022</p>
+					</li>
+					<li>
+						<p><strong>National AP Scholar</strong></p>
+						<p>Issued by Collegeboard</p>
+						<p>July 2022</p>
+					</li>
+					<li>
+						<p><strong>Ned Vizzini Writing Contest Winner</strong></p>
+						<p>Issued by The Brooklyn Public Library</p>
+						<p>May 2021</p>
+					</li>
 				</ul>
-			</footer>
-
+			</section>
 		</div>
+	</div>
 
-		<!-- Footer -->
-		<div id="footer">
-			<div class="container medium">
-
-				<header class="major last">
-					<h2>Connect with Me</h2>
-				</header>
-
-				<p>Let's stay connected through social media and professional networks.</p>
-
-				<ul class="icons">
-					<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-					<li><a href="#" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
-					<li><a href="#" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
-				</ul>
-
-				<ul class="copyright">
-					<li>&copy; Eric Gonzalez. All rights reserved.</li><li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-				</ul>
-			</div>
+	<!-- Footer -->
+	<div id="footer">
+		<div class="container medium">
+			<header class="major last">
+				<h2>Connect with Me</h2>
+			</header>
+			<p>Let's stay connected through social media and professional networks.</p>
+			<ul class="icons">
+				<li><a href="https://www.instagram.com/_eric.gonzalez/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+				<li><a href="https://www.linkedin.com/in/eric-gonzalez-247977206/" class="icon brands fa-linkedin"><span class="label">LinkedIn</span></a></li>
+				<li><a href="https://github.com/ericg114" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+			</ul>
+			<ul class="copyright">
+				<li>&copy; Eric Gonzalez. All rights reserved.</li>
+			</ul>
 		</div>
+	</div>
 
-		<!-- Scripts -->
-		<script src="assets/js/jquery.min.js"></script>
-		<script src="assets/js/browser.min.js"></script>
-		<script src="assets/js/breakpoints.min.js
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+</body>
+</html>
